@@ -182,9 +182,20 @@ button{
     .nav-first{
         width:95%;
     }
+    .nav-first h1{
+        font-size: 36px;
+        font-family: 'Poppins' sans-serif;
+        
+    
+    }
+    .nav-first p{
+        font-size: 15px;
+    }
     .nav-first p,
     .nav-first h1{
-        padding:0;
+        /* padding:0; */
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .nav-second{
         margin-top: 30px;
@@ -259,6 +270,23 @@ font-size: 16px;
         display: flex;
         flex-direction: column-reverse;
     }
+    .card4{
+        padding:30px 0px;
+   
+    margin-bottom: -150px;
+   }
+   .card4 h1{
+    font-size: 18px;
+    font-weight: 900;
+    padding:0;
+       /* margin-bottom: 15px; */
+   }
+   .card4 button{
+       margin-top: 15px ;
+      
+       padding:12px 40px;
+      
+   }
 }
 @media screen and (max-width:427px) {
    nav>img{
@@ -270,9 +298,7 @@ width:40%;
    }
    .footer2 p{
     font-size: 10px;
-    
-
-    
-}
+    }
+   
 }
 
