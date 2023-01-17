@@ -299,6 +299,25 @@ width:40%;
    .footer2 p{
     font-size: 10px;
     }
+    .nav-first h1{
+        font-size: 30px;
+        }
+        .nav-first p{
+            font-size: 15px;
+        }
+        .nav-first p,
+        .nav-first h1{
+            /* padding:0; */
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .card4 h1{
+            font-size: 15px;
+        }
+        .card4 button{
+            padding:10px 30px;
+      
+        }
    
 }
 
